@@ -1,17 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ title }}</title>
-	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
-</head>
+{% include "head.njk"%}
 <body>
-	<header>
-		<h1>{{ title }}</h1>
-	</header>
-	<main>
-	{{ content | safe }}
-	</main>
+	<a class="skip-to-content-link" href="#main">
+		Skip to content
+	</a>
+	{% include "nav.njk"%}
+	<div class="container">
+		<header>
+			<h1 class="big_title">{{ title }}</h1>
+		</header>
+		<main id="main">
+		{{ content | safe }}
+		</main>
+	</div>
+	<script src="/js/script.js"></script>
 </body>
 </html>

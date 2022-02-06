@@ -1,0 +1,17 @@
+<button class="menu__btn" id="menu">
+	<img class="menu_icon"src="/img/menu_close.svg" alt="open or close the menu">
+</button>
+<nav class="nav">
+	<h1 class="nav__msg" aria-hidden="true">Don't Call The Cops</h1>
+	<ul role="list" class="menu">
+		<li>
+			<a class="menu__link" href="/">Home</a>
+		</li>
+{% for page in collections.pages %}
+		<li>
+			<a class="menu__link" href="{{page.url}}">{{page.data.title}}</a>
+		</li>
+{% endfor %}
+	</ul>
+</nav>
+

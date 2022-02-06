@@ -1,0 +1,13 @@
+---
+layout: base.njk
+---
+
+{{ content | safe}}
+
+{% for reason in collections.reasons %}
+
+<h2>{{reason.data.title}}</h2>
+
+{{reason.templateContent | safe}}
+
+{% endfor %}

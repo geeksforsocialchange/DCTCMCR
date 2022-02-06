@@ -1,0 +1,14 @@
+---
+layout: base.njk
+---
+
+{{ content | safe}}
+
+{% for org in collections.orgs %}
+
+<h2>{{org.data.title}}</h2>
+{{org.templateContent | safe}}
+<p>TEL: <code>{{ org.data.tel }}</code></p>
+<p><a href="{{org.data.web}}">Website</a></p>
+
+{% endfor %}
