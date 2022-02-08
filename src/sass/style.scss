@@ -1,4 +1,6 @@
 @use "reset";
+$width-medium: 800px;
+$width-small: 400px;
 
 :root {
   --color-background: #f7f7f7;
@@ -102,11 +104,22 @@ blockquote {
   color: var(--color-menu-text);
 }
 
+@media screen and (max-width: $width-medium) {
+  .nav {
+    grid-template-columns: 1fr;
+  }
+}
+
 .nav__msg {
   width: min-content;
   font-size: 6rem;
   text-decoration: none;
-  // font-weight: bold;
+}
+
+@media screen and (max-width: $width-medium) {
+  .nav__msg {
+    display: none;
+  }
 }
 
 .menu {
@@ -119,11 +132,25 @@ blockquote {
   justify-content: space-evenly;
 }
 
+@media screen and (max-width: $width-medium) {
+  .menu {
+    // align-items: center;
+  }
+}
+
 .menu__link {
   color: var(--color-menu-text);
   font-size: 2rem;
   padding: 0.5rem 1rem;
+  text-align: center;
 }
+
+@media screen and (max-width: $width-medium) {
+  .menu__link {
+    font-size: 1.5rem;
+  }
+}
+
 .menu__link:focus {
   background-color: var(--color-menu-text);
   border: 3px solid var(--color-menu-text);
@@ -139,9 +166,17 @@ blockquote {
   border: none;
   width: 3rem;
   stroke: var(--color-link);
+  padding: 0.5rem;
 }
+
 .menu__btn:focus {
   outline: var(--color-link) solid 3px;
+}
+
+@media screen and (max-width: $width-medium) {
+  .menu__btn {
+    margin: 1rem;
+  }
 }
 
 .menu_icon {
