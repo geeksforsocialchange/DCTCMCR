@@ -1,6 +1,6 @@
 ---
 title: Crisis Line
-tags: ["orgs", "Mental Health", "Housing", "Food"]
+tags: ["Mental Health", "Housing", "Food"]
 tel: (205) 323-7777 (24/7)
 web: https://crisiscenterbham.org/crisis-intervention-prevention/crisis-line/
 ---
