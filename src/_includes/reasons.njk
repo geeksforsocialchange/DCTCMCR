@@ -6,8 +6,10 @@ layout: base.njk
 
 {% for reason in collections.reasons %}
 
-<h2>{{reason.data.title}}</h2>
+<h2 class="accordian__header" >{{reason.data.title}}</h2>
 
-{{reason.templateContent | safe}}
+<div class="accordian__body screen-reader-only">
+	{{reason.templateContent | safe}}
+</div>
 
 {% endfor %}

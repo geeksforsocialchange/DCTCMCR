@@ -36,3 +36,12 @@ menuBtn.onclick = (e) => {
 
 // menu shows by default in case no JS, so hide it on load
 menuBtn.click();
+
+const accordianHeaders = document.querySelectorAll(".accordian__header");
+const accordianBody = document.querySelectorAll(".accordian__body");
+accordianHeaders.forEach((el, i) => {
+	el.onclick = (e) => {
+		e.preventDefault();
+		toggleClass(accordianBody[i], "screen-reader-only");
+	};
+});
