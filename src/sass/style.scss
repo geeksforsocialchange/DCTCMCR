@@ -198,3 +198,22 @@ blockquote {
   margin-right: auto;
   padding: 1rem;
 }
+
+.catagories {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.catagorie {
+  padding: 0.75rem;
+}
+.catagorie__link {
+  width: max-content;
+  padding: 0.5rem 1rem;
+  // background-color: cornflowerblue;
+  border-radius: 2rem;
+  color: var(--color-link);
+  border: 1px solid var(--color-link);
+  text-decoration: none;
+}

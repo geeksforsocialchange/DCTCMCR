@@ -4,11 +4,20 @@ layout: base.njk
 
 {{ content | safe}}
 
+<ul role="list" class="catagories">
+    <li class="catagorie">
+        <a class="catagorie__link" href="{{ page.url}}">All</a>
+    </li>
+{% for tag in collections.tagsList %}
+    <li class="catagorie">
+        <a class="catagorie__link" href="/orgs/{{tag | slugify }}">{{tag}}</a>
+    </li>
+	
+{% endfor %}
+</ul>
+
 {% for org in collections.orgs %}
 
-<h2>{{org.data.title}}</h2>
-{{org.templateContent | safe}}
-<p>TEL: <a href="tel:{{org.data.tel}}">{{org.data.tel}}</a></p>
-<p><a href="{{org.data.web}}">Website</a></p>
+    {% organisation org %}
 
 {% endfor %}

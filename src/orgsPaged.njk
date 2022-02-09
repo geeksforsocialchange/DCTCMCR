@@ -1,0 +1,15 @@
+---
+layout: base.njk
+pagination:
+    data: collections.tagsList
+    size: 1
+permalink: "orgs/{{ pagination.items[0] | slugify  }}/index.html"
+---
+
+{{ collections.pages[who].templateContent | safe}}
+
+{% for tag in pagination.items %}
+    {% for org in collections[tag] %}
+        {% organisation org %}
+    {% endfor %}
+{% endfor %}
