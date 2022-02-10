@@ -1,7 +1,5 @@
 ---
 title: LGBT Foundation
-category: Domestic Violence
-useCase: Support for LGBT survivors
 tags: ["Domestic Violence", "LGBT"]
 tel: 03453303030
 web: https://lgbt.foundation/domesticabuse
