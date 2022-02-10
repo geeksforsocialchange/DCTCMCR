@@ -9,7 +9,9 @@ permalink: "orgs/{{ pagination.items[0] | slugify  }}/index.html"
 {{ collections.pages[who].templateContent | safe}}
 
 {% for tag in pagination.items %}
+        <h1>{{tag}} directory</h1>
     {% for org in collections[tag] %}
         {% organisation org %}
+        {% catagories org.data.tags %}
     {% endfor %}
 {% endfor %}

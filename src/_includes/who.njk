@@ -4,20 +4,13 @@ layout: base.njk
 
 {{ content | safe}}
 
-<ul role="list" class="catagories">
-    <li class="catagorie">
-        <a class="catagorie__link" href="{{ page.url}}">All</a>
-    </li>
-{% for tag in collections.tagsList %}
-    <li class="catagorie">
-        <a class="catagorie__link" href="/orgs/{{tag | slugify }}">{{tag}}</a>
-    </li>
-	
-{% endfor %}
+{% catagories collections.tagsList, true %}
+
 </ul>
 
 {% for org in collections.orgs %}
 
     {% organisation org %}
+    {% catagories org.data.tags %}
 
 {% endfor %}

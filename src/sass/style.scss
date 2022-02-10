@@ -5,13 +5,13 @@ $width-small: 400px;
 :root {
   --color-background: #f7f7f7;
   --color-main: #000;
-  // --color-link: #268686;
   --color-link: darkcyan;
   --color-link-focus: #f7f7f7;
   --color-blockquote-background: white;
   --color-blockquote-text: #333;
   --color-menu-background: var(--color-link);
   --color-menu-text: var(--color-link-focus);
+  --color-org-devider: #d9dbda;
 }
 
 body {
@@ -135,7 +135,7 @@ blockquote {
   padding: 3rem 0;
   margin: 0;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -143,7 +143,7 @@ blockquote {
 
 @media screen and (max-width: $width-medium) {
   .menu {
-    // align-items: center;
+    align-items: center;
   }
 }
 
@@ -216,4 +216,25 @@ blockquote {
   color: var(--color-link);
   border: 1px solid var(--color-link);
   text-decoration: none;
+}
+
+.org__title {
+  text-decoration: none;
+  border-top: 2px solid var(--color-main);
+  border-bottom: 1px solid var(--color-org-devider);
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+.org__contact {
+  padding: 0rem;
+  margin-top: 0;
+}
+.org__contact__method {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-org-devider);
+}
+.org__contact__method__type {
+  padding: 0;
 }
