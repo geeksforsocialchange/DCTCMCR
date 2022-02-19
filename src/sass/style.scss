@@ -1,6 +1,6 @@
 @use "reset";
 $width-medium: 800px;
-$width-small: 400px;
+$width-small: 450px;
 
 :root {
   --color-background: #f7f7f7;
@@ -29,6 +29,12 @@ body {
 p {
   line-height: 2;
   padding: 0rem 1rem 2rem 1rem;
+}
+
+@media screen and (max-width: $width-small) {
+  p {
+    padding: 0rem 0rem 2rem 0rem;
+  }
 }
 
 h1,
@@ -199,6 +205,12 @@ blockquote {
   padding: 1rem;
 }
 
+@media screen and (max-width: $width-medium) {
+  .container {
+    padding: 1.5rem;
+  }
+}
+
 .catagories {
   list-style: none;
   display: flex;
@@ -235,6 +247,13 @@ blockquote {
   justify-content: space-between;
   border-bottom: 1px solid var(--color-org-devider);
 }
+
+@media screen and (max-width: $width-small) {
+  .org__contact__method {
+    padding: 0;
+  }
+}
+
 .org__contact__method__type {
   padding: 0;
 }
