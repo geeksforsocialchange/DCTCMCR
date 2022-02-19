@@ -31,6 +31,14 @@ If you want to add an image it's just a link with an exclamation mark.
 
 ![this is alt text for accessibilty](https://i.redd.it/ko82pi0jcwk71.jpg)
 
+- an unordered list
+- of items
+- looks like this
+
+1. this is
+1. an ordered list
+1. it has numbers
+
 | Item         | Price    | # In stock |
 | ------------ | -------- | ---------- |
 | Juicy Apples | 1.99     | _7_        |
