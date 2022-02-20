@@ -73,6 +73,18 @@ blockquote {
   }
 }
 
+code,
+pre {
+  background: #e3e3e3;
+  padding: 0rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+pre {
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
 .skip-to-content-link {
   // background: #e77e23;
   // height: 30px;
