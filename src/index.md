@@ -19,7 +19,7 @@ This is a paragraph.... Ipsum aspernatur numquam corporis quas quisquam ea Cumqu
 
 It's just normal writing that you seperate with a blank line.
 
-You can add links like [this one](www.duckduckgo.com) using brackets.
+You can add links like [this one](https://www.duckduckgo.com) using brackets, external links require full address including the protocal eg. `https://`.
 
 You can also make things _italic_ or **bold** using stars.
 
