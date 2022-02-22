@@ -3,6 +3,8 @@ layout: base.njk
 title: Don't Call The Cops!
 ---
 
+![illustration](/img/phone.png)
+
 # this is a header 1
 
 ## this is a header 2
