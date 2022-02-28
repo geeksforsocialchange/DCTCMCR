@@ -1,0 +1,46 @@
+backend:
+  name: github
+  repo: geeksforsocialchange/DCTCMCR
+  branch: main
+media_folder: "public/img"
+public_folder: "/img"
+collections:
+  - name: "index"
+    label: "Homepage"
+    folder: "src"
+    create: false
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "select", options: ["base.njk","who.njk","reasons.njk"], default: ["base.njk"]}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    folder: "src/pages"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "select", options: ["base.njk","who.njk","reasons.njk"], default: ["base.njk"]}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "orgs"
+    label: "Orgs"
+    folder: "src/orgs"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      # - {label: "Tags", name: "tags", widget: "list", default: ["orgs"]}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Tel", name: "tel", widget: "string", required: false}
+      - {label: "Web", name: "web", widget: "string", required: false}
+      - {label: "Email", name: "email", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "reasons"
+    label: "Reasons"
+    folder: "src/reasons"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

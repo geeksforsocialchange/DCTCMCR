@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy("./src/fonts/Noto_Serif");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
+  eleventyConfig.addPassthroughCopy("./src/admin/config.yml");
 
   eleventyConfig.addCollection("orgs", function(collection) {
     return collection.getFilteredByGlob("src/orgs/*.md");
