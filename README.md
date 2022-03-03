@@ -42,9 +42,9 @@ Trailing white space in the tags causes a failed build, to prevent this all whit
 
 **External links must include the protocol at the start**
 
-✔️ `https://lgbt.foundation/domesticabuse` => `https://yoururl.com/img/example.jpg`
+✔️ `https://lgbt.foundation/domesticabuse` => `hhttps://lgbt.foundation/domesticabuse`
 
-❌️ `www.lgbt.foundation/domesticabuse` => `https://yoururl.com/pages/who/https://yoururl.com/img/example.jpg`
+❌️ `www.lgbt.foundation/domesticabuse` => `https://yoururl.com/pages/who/www.lgbt.foundation/domesticabuse`
 
 **Internal links take 3 forms**
 
