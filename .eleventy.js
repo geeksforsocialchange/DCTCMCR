@@ -86,7 +86,6 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addTransform("resizeImgs", async function(content) {
-    console.log(this);
     if (this.outputPath && this.outputPath.endsWith(".html")) {
       const dom = new JSDOM(content);
       await Promise.all(
