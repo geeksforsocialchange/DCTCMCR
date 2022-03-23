@@ -1,6 +1,5 @@
 const { readFile, writeFile } = require("fs/promises");
-const jsdom = require("jsdom");
-const { JSDOM } = jsdom;
+const { JSDOM } = require("jsdom");
 const Image = require("@11ty/eleventy-img");
 
 // STATS OBJECT
@@ -20,6 +19,9 @@ const Image = require("@11ty/eleventy-img");
 //   ];
 // }
 
+/**
+ * creates a 900px wide jpeg based on a url and returns the url of the generated image
+ */
 const resizer = async (url) => {
   let stats = await Image(url, {
     outputDir: "./public/img/",

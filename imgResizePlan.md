@@ -20,3 +20,4 @@ mvp.js
 - run through the compiled html, look for img tags and pass the urls through eleventy-img
 
 **Question** will running over the same url dump millions of new files into the public folder each time????
+_Answer_ stopped passThroughCopy on anything that isn't an SVG, it doesn't generate a new image with different hash each time it runs.

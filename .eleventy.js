@@ -1,9 +1,24 @@
 const slugify = require("slugify");
 const outdent = require("outdent");
+const { JSDOM } = require("jsdom");
+const Image = require("@11ty/eleventy-img");
+
+/**
+ * creates a 800px wide jpeg based on a url and returns the url of the generated image
+ */
+const resizer = async (url) => {
+  let stats = await Image(url, {
+    outputDir: "./public/img/",
+    formats: ["jpeg"],
+    widths: [800],
+  });
+
+  return stats.jpeg[0].url;
+};
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
-  eleventyConfig.addPassthroughCopy("./src/img");
+  eleventyConfig.addPassthroughCopy("./src/img/*.svg");
   eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy("./src/fonts/Noto_Serif");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
@@ -68,6 +83,27 @@ module.exports = function(eleventyConfig) {
 
       </ul>
     `;
+  });
+
+  eleventyConfig.addTransform("resizeImgs", async function(content) {
+    console.log(this);
+    if (this.outputPath && this.outputPath.endsWith(".html")) {
+      const dom = new JSDOM(content);
+      await Promise.all(
+        [...dom.window.document.querySelectorAll("img")].map(async (el) => {
+          // TODO ignore SVG
+          src = el.src;
+          // console.log(src);
+          if (src.endsWith("svg")) return;
+          if (!src.startsWith("http")) src = `src${src}`;
+          el.src = await resizer(src);
+        }),
+      );
+
+      return dom.window.document.documentElement.outerHTML;
+    }
+
+    return content; // no change done.
   });
 
   return {
