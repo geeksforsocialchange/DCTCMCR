@@ -91,9 +91,7 @@ module.exports = function(eleventyConfig) {
       const dom = new JSDOM(content);
       await Promise.all(
         [...dom.window.document.querySelectorAll("img")].map(async (el) => {
-          // TODO ignore SVG
           src = el.src;
-          // console.log(src);
           if (src.endsWith("svg")) return;
           if (!src.startsWith("http")) src = `src${src}`;
           el.src = await resizer(src);
