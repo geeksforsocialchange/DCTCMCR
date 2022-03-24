@@ -18,7 +18,7 @@ const resizer = async (url) => {
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
-  eleventyConfig.addPassthroughCopy("./src/img/*.svg");
+  eleventyConfig.addPassthroughCopy("./src/img/");
   eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy("./src/fonts/Noto_Serif");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
@@ -92,7 +92,7 @@ module.exports = function(eleventyConfig) {
         [...dom.window.document.querySelectorAll("img")].map(async (el) => {
           src = el.src;
           if (src.endsWith("svg")) return;
-          if (!src.startsWith("http")) src = `src${src}`;
+          if (!src.startsWith("http")) src = `public${src}`;
           el.src = await resizer(src);
         }),
       );
