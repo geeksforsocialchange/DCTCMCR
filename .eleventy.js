@@ -92,6 +92,7 @@ module.exports = function(eleventyConfig) {
         [...dom.window.document.querySelectorAll("img")].map(async (el) => {
           src = el.src;
           if (src.endsWith("svg")) return;
+					// If not external pull from the public folder as that's where netlify CMS adds images	
           if (!src.startsWith("http")) src = `public${src}`;
           el.src = await resizer(src);
         }),
