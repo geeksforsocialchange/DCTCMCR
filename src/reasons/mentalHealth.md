@@ -1,9 +1,12 @@
 ---
-title: Mental Health
+title: "What is intersectionality? "
 ---
+To get liberated from oppression, we must see the systems and structures that uphold it and understand our own place inside them. 
 
-Dolor facere iste officiis consectetur quod? Atque adipisci corrupti laboriosam ratione fugiat expedita nisi Dolorem id error ducimus optio architecto? Impedit sapiente illo enim quasi
+ 
 
-Amet sit reprehenderit reiciendis quibusdam quam distinctio Molestiae excepturi sunt omnis voluptatum iste. Dolorum molestiae eius aliquid placeat distinctio amet animi. Molestias et pariatur minus saepe sequi sit amet inventore veritatis Provident possimus amet delectus quam itaque. Magni quasi tempora culpa totam placeat consequatur quia nihil! Tempora ullam est id?
+Sisters Uncut’s approach to organising towards that liberation is rooted in intersectionality. It is central in all our work but you can find a simple summary in our safer spaces policy:
 
-Dolor facere iste officiis consectetur quod? Atque adipisci corrupti laboriosam ratione fugiat expedita nisi Dolorem id error ducimus optio architecto? Impedit sapiente illo enim quasi
+ 
+
+“*We experience different kinds of oppression and violence at the same time, including racism, disableism, poverty, transphobia, transmisogyny, homophobia, islamophobia and antisemitism, as well as others. These oppressions are not separate from each other which can be exhausting & painful. We want to create a community that recognises and challenges the oppression & exploitation that some of us are harmed by and some of us benefit from.*”
