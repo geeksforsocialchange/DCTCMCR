@@ -1,6 +1,6 @@
 ---
 title: Who To Call Instead
-layout: base.njk
+layout: who.njk
 ---
 **Find alternatives to calling the Greater Manchester Police**
 
