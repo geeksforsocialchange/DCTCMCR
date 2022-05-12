@@ -4,28 +4,6 @@ layout: base.njk
 ---
 # Explore the directory!
 
+> “Without community, there is no liberation.” ― Audre Lorde
+
 ![illustration](/img/phone.png)
-
-
-
-## this is a header 2
-
-### this is a header 3
-
-#### this is a header 4
-
-##### this is a header 5
-
-###### this is a header 6
-
-This is a paragraph.... Ipsum aspernatur numquam corporis quas quisquam ea Cumque quia sint ipsum quia enim fuga! Cupiditate cupiditate magnam ex quibusdam recusandae deleniti? Et autem dolorem voluptas ipsum fugit? Eius assumenda labore atque facere neque Saepe asperiores vitae nam at animi Voluptatibus vitae magnam eligendi rerum iure. Cum facere ab illum reiciendis!
-
-It's just normal writing that you seperate with a blank line.
-
-You can add links like [this one](https://www.duckduckgo.com) using brackets, external links require full address including the protocal eg. `https://`.
-
-You can also make things *italic* or **bold** using stars.
-
-You can quote things aswell.
-
-> The washing machine is a better model for a progressive technology then the smart phone. **\- M. Fisher**
