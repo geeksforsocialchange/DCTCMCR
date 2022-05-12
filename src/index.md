@@ -2,11 +2,11 @@
 title: Don't Call The Cops!
 layout: base.njk
 ---
-
+# Explore the directory!
 
 ![illustration](/img/phone.png)
 
-# this is a header 1
+
 
 ## this is a header 2
 
@@ -29,7 +29,3 @@ You can also make things *italic* or **bold** using stars.
 You can quote things aswell.
 
 > The washing machine is a better model for a progressive technology then the smart phone. **\- M. Fisher**
-
-If you want to add an image it's just a link with an exclamation mark.
-
-![this is alt text for accessibilty]()
