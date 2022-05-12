@@ -16,14 +16,10 @@ Despite these issues, we can often feel like calling the police is the only opti
 
 This site also links to supportive resources for communities facing more police hostility and surveillance.
 
-
-
 **Accountability**
-
- 
 
 We have done our best to ask our networks to comment and contribute to this list. Many of these organisations have a legal responsibility to engage with police at varying levels and we have made that clear where we are aware of it, but please take care. 
 
- 
-
 **We recognise that people may have had negative experiences with some of these organisations and we want to hear from you. We will aim to update this site as often as we can. Please email [sistersuncutmcr@gmail.com](mailto:sistersuncutmcr@gmail.com), but know that it may take us a while to get back to you as we’re just a few organisers volunteering our time.**
+
+![Illustrated image of a protester holding green and purple smoke flares in their right hand. Text says: We will not be silenced. End state and gendered violence. ](/img/1.png)
