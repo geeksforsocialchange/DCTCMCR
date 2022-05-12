@@ -2,7 +2,7 @@
 title: LGBT Foundation
 tags:
   - Domestic Violence
-  - LGBT
+  - LGBTQ+
 tel: "03453303030"
 web: https://lgbt.foundation/domesticabuse
 email: dasupport@lgbt.foundation
