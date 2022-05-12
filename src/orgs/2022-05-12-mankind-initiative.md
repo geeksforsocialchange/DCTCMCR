@@ -1,7 +1,7 @@
 ---
 title: ManKind Initiative
 tags:
-  - DomesticViolence
+  - Domestic Violence
 tel: 01823 334244
 web: https://www.mankind.org.uk/
 email: admin@mankind.org.uk
