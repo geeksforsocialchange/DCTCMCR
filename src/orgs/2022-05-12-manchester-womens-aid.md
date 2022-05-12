@@ -1,7 +1,7 @@
 ---
 title: Manchester Women's Aid
 tags:
-  - DomesticViolence
+  - Domestic Violence
 tel: "1616607999"
 web: https://pankhursttrust.org/get-help/refuge-emerge
 email: referrals@manchesterwomensaid.org
