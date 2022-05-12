@@ -1,7 +1,7 @@
 ---
 title: Safety4Sisters
 tags:
-  - DomesticViolence
+  - Domestic Violence
 tel: "01614649505"
 web: https://www.safety4sisters.org/
 email: safety4sisters@gmail.com
