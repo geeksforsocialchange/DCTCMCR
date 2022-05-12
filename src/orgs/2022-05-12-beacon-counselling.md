@@ -1,7 +1,7 @@
 ---
 title: Beacon Counselling
 tags:
-  - MentalHealth
+  - Mental Health
 tel: 0161 440 0055
 web: https://www.beacon-counselling.org.uk/about-us/
 email: ""
