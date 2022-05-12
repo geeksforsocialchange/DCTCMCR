@@ -1,8 +1,7 @@
 ---
-layout: base.njk
 title: Don't Call The Cops!
+layout: base.njk
 ---
-
 ![illustration](/img/phone.png)
 
 # this is a header 1
@@ -23,25 +22,12 @@ It's just normal writing that you seperate with a blank line.
 
 You can add links like [this one](https://www.duckduckgo.com) using brackets, external links require full address including the protocal eg. `https://`.
 
-You can also make things _italic_ or **bold** using stars.
+You can also make things *italic* or **bold** using stars.
 
 You can quote things aswell.
 
-> The washing machine is a better model for a progressive technology then the smart phone. **- M. Fisher**
+> The washing machine is a better model for a progressive technology then the smart phone. **\- M. Fisher**
 
 If you want to add an image it's just a link with an exclamation mark.
 
 ![this is alt text for accessibilty](https://i.redd.it/ko82pi0jcwk71.jpg)
-
-- an unordered list
-- of items
-- looks like this
-
-1. this is
-1. an ordered list
-1. it has numbers
-
-| Item         | Price    | # In stock |
-| ------------ | -------- | ---------- |
-| Juicy Apples | 1.99     | _7_        |
-| Bananas      | **1.89** | 5234       |
