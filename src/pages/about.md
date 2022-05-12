@@ -6,6 +6,8 @@ This is an online directory of local resources available in Manchester that you 
 
 It is not a perfect resource but our goal is to seed the idea that a different, better future is possible - one where well resourced and funded community services enable us to live in a world without police. 
 
+> “You have to act as if it were possible to radically transform the world. And you have to do it all the time.” ― Angela Davis
+
 The police do not solve the problems we face in our communities. It is not their job to solve the problems. 
 
 The police punish people who commit “crime”, without asking why “crime” is happening. If we do not work out the root causes of a problem and address them then the problem will happen again and again. Communities are not made safer or stronger by this system, or by the police, and we must create new ways to deal with harm in our society. This belief is called “abolition” - a term which is explained more below. 
