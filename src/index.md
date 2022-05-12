@@ -2,6 +2,8 @@
 title: Don't Call The Cops!
 layout: base.njk
 ---
+
+
 ![illustration](/img/phone.png)
 
 # this is a header 1
@@ -30,4 +32,4 @@ You can quote things aswell.
 
 If you want to add an image it's just a link with an exclamation mark.
 
-![this is alt text for accessibilty](https://i.redd.it/ko82pi0jcwk71.jpg)
+![this is alt text for accessibilty]()
