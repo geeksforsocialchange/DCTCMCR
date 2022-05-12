@@ -1,0 +1,6 @@
+---
+title: "Greater Manchester Police are Not Innocent "
+---
+While a lot of the most publicly heinous acts of British policing are from the London Met, GMP have repeatedly shown themselves to be just as bad. GMP were placed in special measures in December 2020 after an inspection report found extensive failings. This included failing to report over 80,000 crimes in a 12 month period. GMP employees accused of domestic violence are 33% less likely to be convicted than the average person. In 2021, GMP employees killed 8 members of the public during road traffic accidents. In response to these failings, Stephen Watson, a right wing traditionalist, was appointed as Chief Constable. Further reports in late 2021 have shown that he has failed to make any improvements.
+
+In February 2022, the Manchester Labour council, led by Mayor Andy Burnham, unanimously voted through council tax hikes to increase police presence in schools and in our communities. This despite the fact that GMP fails to protect people because of systematic problems in policing as a whole - and also fails by its own measures when inspected.
