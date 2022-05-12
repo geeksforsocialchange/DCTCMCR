@@ -1,7 +1,7 @@
 ---
 title: Manchester Rape Crisis
 tags:
-  - SexualViolence
+  - Sexual Violence
 tel: "1612734500"
 web: https://www.manchesterrapecrisis.co.uk/
 email: help@manchesterrapecrisis.co.uk
