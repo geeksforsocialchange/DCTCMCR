@@ -1,7 +1,7 @@
 ---
 title: Stop Sexual Offending
 tags:
-  - SexualViolence
+  - Sexual Violence
 web: https://stopso.org.uk/about/
 email: info@stopso.org.uk
 ---
