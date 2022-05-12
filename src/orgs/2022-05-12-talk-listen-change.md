@@ -1,7 +1,8 @@
 ---
 title: Talk Listen Change
 tags:
-  - DomesticViolenceMentalHealth
+  - Domestic Violence
+  - Mental Health
 tel: 0161 872 1100
 web: https://talklistenchange.org.uk/
 email: enquiries@talklistenchange.org.uk
