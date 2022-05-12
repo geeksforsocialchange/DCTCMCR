@@ -1,7 +1,7 @@
 ---
 title: Freedom from Torture
 tags:
-  - Migrant
+  - MigrantMentalHealth
 tel: 0161 236 5744
 web: https://www.freedomfromtorture.org/UK-centres/our-north-west-centre-in-manchester
 email: northwest@freedomfromtorture.org
