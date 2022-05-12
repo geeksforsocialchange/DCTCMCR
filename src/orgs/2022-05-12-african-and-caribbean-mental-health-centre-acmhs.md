@@ -1,7 +1,7 @@
 ---
 title: African and Caribbean Mental Health Centre (ACMHS)
 tags:
-  - MentalHealth
+  - Mental Health
 tel: "0161 226 9562 "
 web: https://www.acmh-services.co.uk/
 email: admin@acmhs-blackmentalhealth.org.uk
