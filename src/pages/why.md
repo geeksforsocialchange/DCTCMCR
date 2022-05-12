@@ -1,6 +1,5 @@
 ---
+title: "Why shouldn't I call the cops? "
 layout: reasons.njk
-title: Why Not Call the Cops
 ---
-
-a series of brief pol-ed articles explaining abolitionism, alternatives to calling the cops. Must be editable, perhaps built as accordion-style?
+This site is an experiment in imagining what our world would look like, and who we would turn to for help, once we achieve police and prison abolition. Here are a few reflections on why police intervention is rarely the best means of resolution.
