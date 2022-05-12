@@ -1,7 +1,7 @@
 ---
 title: St Mary's Centre
 tags:
-  - SexualViolence
+  - Sexual Violence
 tel: "01612766515"
 web: https://www.stmaryscentre.org/
 ---
