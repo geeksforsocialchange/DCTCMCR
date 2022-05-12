@@ -1,7 +1,7 @@
 ---
 title: Survivors Manchester
 tags:
-  - SexualViolence
+  - Sexual Violence
 tel: "08088005005"
 web: https://www.survivorsmanchester.org.uk/
 email: support@survivorsmanchester.org.uk
