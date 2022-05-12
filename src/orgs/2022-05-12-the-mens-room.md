@@ -1,7 +1,8 @@
 ---
 title: The Men's Room
 tags:
-  - SexWorkHousing
+  - Sex Work
+  - Housing
 tel: 0161 834 1827
 web: https://mroom.co.uk/
 email: Kellie@mroom.co.uk
