@@ -1,7 +1,7 @@
 ---
 title: Greater Manchester Domestic Abuse Helpline
 tags:
-  - DomesticViolence
+  - Domestic Violence
 tel: "016116367525"
 web: https://hsm.manchester.gov.uk/kb5/manchester/directory/service.page?id=Sm9RjuiE1VI
 ---
