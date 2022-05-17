@@ -1,3 +1,4 @@
+const { JSDOM } = require("jsdom");
 const slugify = require("slugify");
 const outdent = require("outdent");
 
@@ -68,6 +69,28 @@ module.exports = function(eleventyConfig) {
 
       </ul>
     `;
+  });
+
+  // This is can be resolved in chrome using css but it is not widely supported yet
+  // h2:has(> a) {color: var(--color-link)}
+
+  eleventyConfig.addTransform("checkHeadersForLinks", function(content) {
+    if (this.outputPath && this.outputPath.endsWith(".html")) {
+      const dom = new JSDOM(content);
+      [...dom.window.document.querySelectorAll("a")].forEach((el) => {
+        // check parentNode if header
+        let parent = el.parentElement;
+        if (/H[1-6]/.test(parent.tagName)) {
+          // add an inline style if it is
+          // seems to fail when passing in "var(--color-link)"
+          parent.style.color = "darkcyan";
+        }
+      });
+
+      return dom.window.document.documentElement.outerHTML;
+    }
+
+    return content; // no change done.
   });
 
   return {
