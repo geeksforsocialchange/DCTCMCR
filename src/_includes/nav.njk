@@ -4,11 +4,11 @@
 <nav role='navigation' aria-label="pages" class="nav">
 	<h1 aria-hidden="true" class="nav__msg" aria-hidden="true">Don't Call The Cops</h1>
 	<ul role="list" class="menu">
-		<li>
+		<li class="menu__item">
 			<a class="menu__link" href="/">Home</a>
 		</li>
 {% for page in collections.pages %}
-		<li>
+		<li class="menu__item">
 			<a class="menu__link" href="{{page.url}}">{{page.data.title}}</a>
 		</li>
 {% endfor %}

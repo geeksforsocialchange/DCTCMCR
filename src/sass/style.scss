@@ -165,11 +165,15 @@ pre {
   }
 }
 
+.menu__item {
+  text-align: center;
+}
+
 .menu__link {
   color: var(--color-menu-text);
   font-size: 2rem;
   padding: 0.5rem 1rem;
-  text-align: center;
+  // text-align: center;
 }
 
 @media screen and (max-width: $width-medium) {
