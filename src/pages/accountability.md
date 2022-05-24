@@ -1,12 +1,8 @@
 ---
-title: Accountability Resources
+title: Community Accountability Resources
 layout: base.njk
 ---
-**Community Accountability Resources**
-
- 
-
-Documents, Toolkits & Explainers:
+**Documents, Toolkits & Explainers:**
 
 * Example Safer Spaces Policy: <https://www.sistersuncut.org/saferspaces/>
 * ORGANIZING FOR COMMUNITY ACCOUNTABILITY handout: <https://www.transformativejustice.eu/wp-content/uploads/2010/06/6685_toolkitrev-cmtyacc.pdf>
@@ -21,10 +17,9 @@ Documents, Toolkits & Explainers:
 * Taking risks: implements grassroots community accountability strategies: <https://www.transformativejustice.eu/wp-content/uploads/2010/11/Taking-Risks.-CARA.pdf>
 * UK Know Your Rights Handout (July 2021): [https://docs.google.com/document/d/1s1T_-vChNdvmgxnPlUrGIomneCmIwO6s/edit?usp=sharing&ouid=102356037291268429379&rtpof=true&sd=true](https://docs.google.com/document/d/1s1T_-vChNdvmgxnPlUrGIomneCmIwO6s/edit?usp=sharing&ouid=102356037291268429379&rtpof=true&sd=true)
 
- 
-
-Organisational websites:
+**Organisational websites:**
 
 * Northern Police Monitoring Project: <http://npolicemonitor.co.uk/resources/>
+* Anti-Raids Network: <https://antiraids.net/about/>
 * Transformative Justice Practitioners Network: <https://www.transformativejustice.eu/en/what-are-ca-and-tj/>
 * INCITE - <https://incite-national.org/>
