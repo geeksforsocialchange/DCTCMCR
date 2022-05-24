@@ -1,5 +1,5 @@
 ---
-title: Community Accountability Resources
+title: Accountability Resources
 layout: base.njk
 ---
 **Documents, Toolkits & Explainers:**
