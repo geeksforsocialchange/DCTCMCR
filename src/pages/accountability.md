@@ -23,3 +23,7 @@ layout: base.njk
 * Anti-Raids Network: <https://antiraids.net/about/>
 * Transformative Justice Practitioners Network: <https://www.transformativejustice.eu/en/what-are-ca-and-tj/>
 * INCITE - <https://incite-national.org/>
+
+
+
+![](/img/photo_2022-04-24-22.19.34.jpeg)
