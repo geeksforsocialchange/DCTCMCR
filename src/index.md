@@ -1,7 +1,11 @@
 ---
-title: Don't Call The Cops!
+title: " "
 layout: base.njk
 ---
+
+
+![illustration](/img/phone.png)
+
 > “Without community, there is no liberation.” ― Audre Lorde
 
 The police do not solve the problems we face in our communities. 
@@ -13,5 +17,3 @@ This website is an online directory of local resources available in Manchester t
 We are abolitionists and we believe that a better future is possible. Abolition in our lifetime requires patience, work, and imagination. We also want to explore the ideas and evidence that supports this work. 
 
 ## [Find out more about how police harm our communities. ](https://brave-wiles-0c8b95.netlify.app/pages/why/)
-
-![illustration](/img/phone.png)
