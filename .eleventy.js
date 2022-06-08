@@ -31,15 +31,35 @@ module.exports = function(eleventyConfig) {
     return outdent`
       <h2 class="org__title">${collectionObject.data.title}</h2>
       <ul role="list" class="org__contact"]>
+${
+  collectionObject.data.tel
+    ? `
         <li class="org__contact__method">
           <p class="org__contact__method__type" >Phone</p>
           <a href="tel:${collectionObject.data.tel}">${collectionObject.data.tel}</a></li>
+	`
+    : ``
+}
+${
+  collectionObject.data.email
+    ? `
         <li class="org__contact__method">
           <p class="org__contact__method__type" >Email</p>
           <a href="mailto:${collectionObject.data.email}">${collectionObject.data.email}</a></li>
+
+	`
+    : ``
+}
+${
+  collectionObject.data.web
+    ? `
         <li class="org__contact__method">
           <p class="org__contact__method__type" >Website</p>
           <a href="${collectionObject.data.web}">${collectionObject.data.web}</a></li>
+
+	`
+    : ``
+}
       </ul>
       ${collectionObject.templateContent}
     `;
