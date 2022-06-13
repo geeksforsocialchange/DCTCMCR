@@ -15,9 +15,10 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("menu", function(collection) {
-    return collection
-      .getFilteredByGlob("src/pages/*.md")
-      .sort((a, b) => a.data.order - b.data.order);
+    return [
+      ...collection.getFilteredByGlob("src/pages/*.md"),
+      ...collection.getFilteredByGlob("src/index.md"),
+    ].sort((a, b) => a.data.order - b.data.order);
   });
 
   eleventyConfig.addCollection("tagsList", function(collectionApi) {
