@@ -1,5 +1,6 @@
 ---
 title: About
+order: 2
 layout: base.njk
 ---
 This is an online directory of local resources available in Manchester that you can use instead of calling the police. 

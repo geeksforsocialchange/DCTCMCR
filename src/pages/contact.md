@@ -1,5 +1,6 @@
 ---
 title: Contact
+order: 7
 layout: base.njk
 ---
 This is a community resource. 

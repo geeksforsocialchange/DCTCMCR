@@ -1,5 +1,6 @@
 ---
 title: Accountability Resources
+order: 6
 layout: base.njk
 ---
 **Documents, Toolkits & Explainers:**
