@@ -12,6 +12,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Menu Title", name: "menu_title", widget: "string"}
       - {label: "Menu Order", name: "order", widget: "number"}
       - {label: "Layout", name: "layout", widget: "select", options: ["base.njk","who.njk","reasons.njk"], default: ["base.njk"]}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -22,6 +23,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Menu Title", name: "menu_title", widget: "string"}
       - {label: "Menu Order", name: "order", widget: "number"}
       - {label: "Layout", name: "layout", widget: "select", options: ["base.njk","who.njk","reasons.njk"], default: ["base.njk"]}
       - {label: "Body", name: "body", widget: "markdown", required: false}

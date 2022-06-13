@@ -1,6 +1,7 @@
 ---
 title: " "
 order: 0
+menu_title: "Home"
 layout: base.njk
 ---
 
