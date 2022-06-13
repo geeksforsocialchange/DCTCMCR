@@ -21,6 +21,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Order", name: "order", widget: "number"}
       - {label: "Layout", name: "layout", widget: "select", options: ["base.njk","who.njk","reasons.njk"], default: ["base.njk"]}
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "orgs"
