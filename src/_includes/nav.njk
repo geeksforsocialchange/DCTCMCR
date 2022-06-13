@@ -9,7 +9,13 @@
 		</li>
 {% for item in collections.menu %}
 		<li class="menu__item">
-			<a class="menu__link" href="{{item.url}}">{{item.data.title}}</a>
+			<a class="menu__link" href="{{item.url}}">
+				{% if item.data.menu_title %}
+					{{item.data.menu_title}}
+				{% else %}
+				{{item.data.title}}
+				{% endif %}
+			</a>
 		</li>
 {% endfor %}
 	</ul>
