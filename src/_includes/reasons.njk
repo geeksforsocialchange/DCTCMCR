@@ -4,10 +4,11 @@ layout: base.njk
 
 {{ content | safe}}
 
-{% for reason in collections.reasons %}
-
-<h2>{{reason.data.title}}</h2>
-
-{{reason.templateContent | safe}}
-
-{% endfor %}
+<ul class="questions" role="list">
+	{% for reason in collections.reasons %}
+	<li class="org__contact__method">
+			<p class="org__contact__method__type">{{reason.data.title}}</p>
+			<a class="catagorie__link " href={{reason.url}}>More</a>
+		</li>
+	{% endfor %}
+</ul>

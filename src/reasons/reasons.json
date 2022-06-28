@@ -1,3 +1,4 @@
 {
-  "tags": "reasons"
+  "tags": "reasons",
+  "layout": "base.njk"
 }

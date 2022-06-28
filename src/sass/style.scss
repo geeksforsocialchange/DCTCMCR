@@ -279,3 +279,13 @@ pre {
 .org__contact__method__type {
   padding: 0;
 }
+
+.questions {
+  padding: 0;
+  border-top: 2px solid var(--color-main);
+}
+
+.questions > * {
+  border-bottom: 1px solid var(--color-org-devider);
+  padding: 1rem;
+}
